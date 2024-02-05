@@ -9,11 +9,6 @@ export const Home = () => {
                 <h1>Curriculum Vitae de Romain Gaud</h1>
             </div>
             <NavigationBar />
-            <div>
-                <a href='https://www.linkedin.com/in/romain-gaud/'>LinkedIn</a>  
-            </div>
-
-            
         </>
     );
 }
