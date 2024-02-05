@@ -13,7 +13,6 @@ export const ContactElement = ({ props }) => {
                 <Row>
                     <Col>
                         <div 
-                            class="contact-element center-block"
                             className="contact-element center-block"
                         >
                             <img

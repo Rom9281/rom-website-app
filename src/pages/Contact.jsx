@@ -6,9 +6,6 @@ import { NavigationBar } from '../components/nav_bar/NavigationBar';
 export const Contact = () => {
     return (
         <>
-            <div>
-                <h1>Contact</h1>
-            </div>
             <NavigationBar />
             {contactsList.map((contact, index) => (
                 <ContactElement key={index} props={contact} />

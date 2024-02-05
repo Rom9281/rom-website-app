@@ -6,26 +6,28 @@ import { NavigationBarElement } from './nav_bar_element/NavigationBarElement';
 export const NavigationBar = () => {
 
     return (
-        <Navbar
-            expand="lg"
-            className="navbar navbar-dark bg-dark"
-        >
-            <Container>
-                <NavigationBarElement props={
-                    {
-                        name: "Home",
-                        route: "/"
-                    }
-                } />
-                <NavigationBarElement props={
-                    {
-                        name: "Contact Me",
-                        route: "/contacts"
-                    }
-                } />
-            </Container>
+        <div className='flex-nav-bar'>
+            <Navbar
+                bg="primary" data-bs-theme="dark"
+            >
+                <Container>
+                    <Navbar.Brand>Romain Gaud</Navbar.Brand>
+                    <NavigationBarElement props={
+                        {
+                            name: "Home",
+                            route: "/"
+                        }
+                    } />
+                    <NavigationBarElement props={
+                        {
+                            name: "Contact Me",
+                            route: "/contacts"
+                        }
+                    } />
+                </Container>
 
-        </Navbar>
+            </Navbar>
+        </div>
 
     );
 };
