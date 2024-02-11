@@ -10,7 +10,7 @@ export const NavigationBar = () => {
         <div >
             <Navbar
                 className='flex-nav-bar fixed-top nav-bar-font'
-                data-bs-theme="dark"
+                data-bs-theme="light"
             >
                 <Container>
                     <Navbar.Brand
@@ -26,6 +26,12 @@ export const NavigationBar = () => {
                         {
                             name: "Contact Me",
                             route: "/contacts"
+                        }
+                    } />
+                    <NavigationBarElement props={
+                        {
+                            name: "Places",
+                            route: "/places"
                         }
                     } />
                 </Container>

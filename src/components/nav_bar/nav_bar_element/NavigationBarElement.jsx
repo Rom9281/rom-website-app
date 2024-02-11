@@ -6,7 +6,7 @@ export const NavigationBarElement = ({ props }) => {
     return (
         <Navbar.Link
             href={props.route}
-            className="nav-link text-white nav-bar-text-element"
+            className="nav-link nav-bar-text-element"
         >{props.name}</Navbar.Link>
     );
 };

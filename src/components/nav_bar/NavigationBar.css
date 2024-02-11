@@ -4,17 +4,17 @@
     width: 100%;
     height: 90px;
     align-items: left; /* Add this line */
-    background-color: goldenrod;
+    background-color: #F1E5AC;
 }
 
 .nav-bar-font {
     font-size: 25px !important;
-    color: white;
+    color: black;
     text-align: left;
 }
 
 .nav-bar-brand {
     font-size: 35px !important;
-    color: white;
+    color: black;
     text-align: left;
 }

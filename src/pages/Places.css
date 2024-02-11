@@ -1,0 +1,10 @@
+.places-general {
+    padding-top: 120px;
+}
+
+.places-map-box {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid goldenrod; /* Add beautiful borders */
+    border-radius: 10px; /* Add border radius for a rounded look */
+}
