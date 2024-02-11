@@ -2,7 +2,19 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
-    padding: 10px;
-    z-index: 1000;
+    height: 90px;
+    align-items: left; /* Add this line */
+    background-color: goldenrod;
+}
+
+.nav-bar-font {
+    font-size: 25px !important;
+    color: white;
+    text-align: left;
+}
+
+.nav-bar-brand {
+    font-size: 35px !important;
+    color: white;
+    text-align: left;
 }

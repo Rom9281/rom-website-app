@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import './ContactElement.css';
 
 export const ContactElement = ({ props }) => {
 
@@ -13,9 +14,10 @@ export const ContactElement = ({ props }) => {
                 <Row>
                     <Col>
                         <div 
-                            className="contact-element center-block"
+                            className="center-block"
                         >
                             <img
+                            className='contact-image'
                                 src={props.img}
                                 alt="Contact Image"
                                 width="100"
@@ -23,11 +25,12 @@ export const ContactElement = ({ props }) => {
                             />
                         </div>
                     </Col>
-                    <Col>
-                        <div className="contact-element">
-                            <h1>{props.mediaName}</h1>
-                            <h2>{props.info}</h2>
-                        </div>
+                    <Col className='d-flex align-items-center'>
+                        <h1>{props.mediaName}</h1>
+                    </Col>
+                    <Col className='d-flex align-items-center'>
+                        <h2>{props.info}</h2>
+                    
                     </Col>
                 </Row>
             </div>
