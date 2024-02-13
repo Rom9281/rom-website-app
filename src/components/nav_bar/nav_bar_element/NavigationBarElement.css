@@ -1,6 +1,6 @@
 .nav-bar-text-element {
     font-size: 25px !important;
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 768px) {

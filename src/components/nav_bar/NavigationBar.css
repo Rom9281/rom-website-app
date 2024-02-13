@@ -3,19 +3,29 @@
     top: 0;
     width: 100%;
     height: 90px;
-    align-items: left; /* Add this line */
+    align-items: left;
+    justify-content: flex-start;
     background-color: #F1E5AC;
 }
-
 
 .nav-bar-font {
     font-size: 25px !important;
     color: black;
     text-align: left;
+    margin-right: 10px; /* Add this line for spacing */
 }
 
 .nav-bar-brand {
     font-size: 35px !important;
     color: black;
     text-align: left;
+    margin-left: 5%;
 }
+
+.navbar-elements{
+    margin-left: 50%;
+    margin-right: 5%;
+    text-align: center   ;
+    display: flex;
+    justify-content: space-between;
+  }
