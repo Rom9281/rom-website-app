@@ -25,14 +25,11 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add relief effect on hover */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .contact-font-h1 {
-        font-size: 30px; /* Decrease the font size for smaller screens */
-    }
-    .contact-font-h2 {
         font-size: 25px; /* Decrease the font size for smaller screens */
     }
-    .contact-image{
-        width: 75px; /* Set image width */
+    .contact-font-h2 {
+        font-size: 20px; /* Decrease the font size for smaller screens */
     }
 }

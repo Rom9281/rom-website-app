@@ -4,10 +4,12 @@ import './NavigationBarElement.css';
 
 export const NavigationBarElement = ({ props }) => {
     return (
-        <Navbar.Link
-            href={props.route}
-            className="nav-link nav-bar-text-element"
-        >{props.name}</Navbar.Link>
+        <div className='nav-bar-border-element'>
+            <Navbar.Link
+                href={props.route}
+                className="nav-bar-text-element"
+            >{props.name}</Navbar.Link>
+        </div>
     );
 };
 

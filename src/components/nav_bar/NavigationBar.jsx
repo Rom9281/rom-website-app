@@ -25,7 +25,6 @@ export const NavigationBar = () => {
         <div>
             <Navbar
                 className='flex-nav-bar fixed-top nav-bar-font'
-                data-bs-theme="light"
                 expand={expand}
             >
                 <Container fluid>
@@ -40,8 +39,12 @@ export const NavigationBar = () => {
                         placement="end"
                         onHide={onShowCanvas}
                         onShow={onOffCanvas}
+                        
                     >
-                        <Offcanvas.Header closeButton>
+                        <Offcanvas.Header 
+                        closeButton
+                        className='navbar-offcanvas'
+                        >
                             <Offcanvas.Title >
                                 Menu
                             </Offcanvas.Title>
