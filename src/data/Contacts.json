@@ -7,14 +7,6 @@
         "url": "https://www.linkedin.com/in/romain-gaud/"
     },
     {
-        "id": "2",
-        "mediaName": "Telephone",
-        "info": "06 12 34 56 78",
-        "img":"/contact_img/telephone.png",
-        "url": "tel:+33612345678"
-
-    },
-    {
         "id": "3",
         "mediaName": "Pro Email",
         "info": "romain.gaud@cpe.fr",

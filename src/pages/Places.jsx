@@ -5,7 +5,7 @@ import './Places.css';
 
 export const Places = () => {
 
-    const highlightPlaces = ["FRA", "SGP", "GBR", "USA","RUS","CHN","MYS","IDN","VNM","THA","PHL","AUS","ESP","PRT","CHE","NLD","BEL","ITA","DEU","ARE","KHM"];
+    const highlightPlaces = ["HRV","FRA", "SGP", "GBR", "USA","RUS","CHN","MYS","IDN","VNM","THA","PHL","AUS","ESP","PRT","CHE","NLD","BEL","ITA","DEU","ARE","KHM"];
     const markers = [ // Declare the "markers" variable using the "const" keyword
         {name: "Singapore", coordinates: [103.8198, 1.3521], markerOffset: -15},
         {name: "London", coordinates: [-0.1276, 51.5074], markerOffset: -15},

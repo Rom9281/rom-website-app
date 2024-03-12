@@ -22,7 +22,7 @@ img {
 
 @media (max-width: 1200px) {
     .welcome-text {
-        font-size: 80px; /* Decrease the font size for smaller screens */
+        font-size: 50px; /* Decrease the font size for smaller screens */
         
     }
 }
@@ -32,4 +32,26 @@ img {
     position: relative;
     text-align: center;
     color: white;
+}
+
+h1 {
+    font-size: 50px; /* Increase the font size for the heading */
+    color: #F1E5AC; /* Change the text color */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    text-align: center; /* Center align the text */
+    margin-bottom: 20px; /* Add some bottom margin */
+}
+
+p {
+    font-size: 30px; /* Increase the font size for the paragraph */
+    color: #888888; /* Change the text color */
+    text-align: center; /* Center align the text */
+    margin-bottom: 40px; /* Add some bottom margin */
+}
+
+.home-text {
+    margin-top: 50px; /* Add some top margin */
+    padding: 50px; /* Add some padding to the text container */
+    border-radius: 10px; /* Add some border radius for a nicer look */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a nicer effect */
 }
