@@ -1,5 +1,46 @@
 [
     {
+        "id": 5,
+        "title": "EM Lyon Business School",
+        "start":"2025",
+        "end":"2024",
+        "location": "Lyon",
+        "descript": "Brings together multiple students from five different engineer schools. The objective is to mix their knowledge and skills while learning the fundamentals of modern management systems. ",
+        "img": "https://em-lyon.com/assets/img/logo_emlyon_end.svg",
+        "url": "https://www.linkedin.com/company/business-mediation-by-em-lyon"
+    },
+    {
+        "id": 4,
+        "title": "CPE Lyon",
+        "start":"2020",
+        "end":"2023",
+        "location": "Lyon",
+        "descript": "General knowledge in electronics, mathematics, signal analysis.  Focus on Big Data, Machine Learning, deploying web services",
+        "img": "/home_img/cpe.png",
+        "url": "https://www.cpe.fr/formation-numerique/ingenieur-sciences-du-numerique/"
+    },
+    {
+        "id": 3,
+        "title": "Preparation School les Chartreux",
+        "start":"2018",
+        "end":"2020",
+        "location": "Lyon",
+        "descript": "Followed the official formation guidelines of the unique French systems of 2 year of dense preparation to enter an engineering school.",
+        "img": "https://www.leschartreux.com/formations-superieures-diplomantes/parametrages/logo_bandeau.png/image",
+        "url": "https://www.prepa.cpe.fr/"
+    },
+
+    {
+        "id": 2,
+        "title": "French International School of Singapore",
+        "start":"2017",
+        "end":"2018",
+        "location": "Singapore",
+        "descript": "Prepared for the french scientific Baccalaureate in the british international section.",
+        "img": "https://www.ifs.edu.sg/wp-content/themes/ifs-v2/assets/images/logo-simp.png",
+        "url": "https://www.ifs.edu.sg/fr/"
+    },
+    {
         "id": 1,
         "title": "French International School of Hong Kong",
         "start":"2010",

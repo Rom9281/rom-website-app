@@ -17,15 +17,8 @@ img {
 
 .welcome-text:hover {
     transform: translate(-50%, -50%) scale(1.1); /* Scale up the text on hover */
-    color: #F1E5AC;
 }
 
-@media (max-width: 1200px) {
-    .welcome-text {
-        font-size: 50px; /* Decrease the font size for smaller screens */
-        
-    }
-}
 
 .img-container{
     padding-top: 100px;
@@ -54,4 +47,19 @@ p {
     padding: 50px; /* Add some padding to the text container */
     border-radius: 10px; /* Add some border radius for a nicer look */
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a nicer effect */
+}
+
+
+@media (max-width: 1200px) {
+    .welcome-text {
+        font-size: 35px; /* Decrease the font size for smaller screens */
+    }
+
+    h1 {
+        font-size: 30px; /* Decrease the font size for smaller screens */
+    }
+
+    p {
+        font-size: 20px; /* Decrease the font size for smaller screens */
+    }
 }

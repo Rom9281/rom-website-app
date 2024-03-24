@@ -53,6 +53,11 @@ export const Places = () => {
                 </div>
 
             </div>
+            <div className="home-text">
+                <p>I was born in Singapore, and have never stopped loving travelling since. Having lived half my life in Asia, I’ve had the opportunity to go diving in the Philippines, trekking through Borneo’s dense jungles. I spent seven years living among Hong Kong’s tall skyscrapers.</p>
+                <p>Going back to France to complete my student life, I was able to tour around Europe. Italy is a personal favorite, but visiting Amsterdam was also quite enlightening. </p>
+                <p>Finally, my internship at Hexagon enabled me to discover the US like I never had. I went several times to the mighty city of Vegas and Los Angeles; though I prefer the breath taking landscapes in Arizona, Nevada and Utah. Seeing New York was one of the highlights of my stay; surfing in Malibu also.</p>
+            </div>
         </div>
     );
 };

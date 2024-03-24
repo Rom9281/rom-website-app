@@ -12,6 +12,10 @@ export const Contact = () => {
     return (
         <>
             <NavigationBar />
+            <div className='img-container'>
+                <div className="welcome-text">Contact info</div>
+                <img src="/contact_img/mountain2.JPG" />
+            </div>
             <div className="contact-boxes">
                 {contactsList.map((contact, index) => (
                     <ContactElement key={index} props={contact} />

@@ -30,25 +30,24 @@ export const ExperienceElement = ({ props }) => {
         <div onClick={handleClick}>
             <div className="contact-wrapper">
                 <Row>
-                    <Col>
-                        <div
-                            className="center-block"
-                        >
-                            <img
-                                className='contact-image'
-                                src={props.img}
-                                alt="Contact Image"
-                                width="100"
-                                height="100"
-                            />
-                        </div>
-                    </Col>
+                    <>
+                        <Col className='column-style'>
+                                <img
+                                    className='contact-img'
+                                    src={props.img}
+                                    alt="Contact Image"
+                                    width="100"
+                                    height="100"
+                                />
+                        </Col>
+                    </>
+                    
                     {isWindowSmall &&
                         <>
                             <Col>
                                 <h2 className='contact-font-h1'>{props.title}</h2>
-                                <h3 className='contact-font-h3'>📍 : {props.location}</h3>
-                                <h3 className='contact-font-h3'>📅 : {props.start} - {props.end}</h3>
+                                <h3 className='contact-font-h3'>📍 {props.location}</h3>
+                                <h3 className='contact-font-h3'>📅 {props.start} - {props.end}</h3>
                                 <p className='contact-font-p'>{props.descript}</p>
                             </Col>
                         </>
@@ -56,16 +55,16 @@ export const ExperienceElement = ({ props }) => {
                     {!isWindowSmall &&
                         <>
                             <Col className='d-flex align-items-center'>
-                                <h2>{props.title}</h2>
+                                <h2 className='special-h2'>{props.title}</h2>
                             </Col>
                             <Col className='d-flex align-items-center'>
-                                <h3>📍 : {props.location}</h3>
+                                <h3 className='special-h3'>📍 {props.location}</h3>
                             </Col>
                             <Col className='d-flex align-items-center'>
-                                <h3>📅 : {props.start} - {props.end}</h3>
+                                <h3 className='special-h3'>📅 {props.start} - {props.end}</h3>
                             </Col>
                             <Col className='d-flex align-items-center'>
-                                <p>{props.descript}</p>
+                                <p className='special-parag'>{props.descript}</p>
                             </Col>
                         </>
                     }
